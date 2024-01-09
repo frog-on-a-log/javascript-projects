@@ -8,5 +8,7 @@
    to have
    multi-line
    comments. */
-
+   /* I am going to add the phrase 
+   "happy frogs" to this code!*/
+   console.log("Happy Frogs");
    console.log("Comments make your code more readable by others.");
