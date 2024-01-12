@@ -40,4 +40,8 @@ if (fuelLevel > 20000 && engineIndicatorLight !== "red blinking" || commandOverr
     console.log ("Cleared to launch!");
 } else {
     console.log ("Launch scrubbed!");
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 2bc8ce1da98202529a60010a0aae55dfd97f2e81

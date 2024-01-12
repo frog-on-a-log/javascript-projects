@@ -1,0 +1,7 @@
+
+
+if (1 + 4 === 6) {
+    console.log ("hello freindo");
+} else if (1 + 4 === 5) {
+    console.log ("Hello Freindos!");
+} else console.log ("wtf");
