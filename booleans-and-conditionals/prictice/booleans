@@ -1,7 +1,23 @@
-console.log(Boolean("true"));
-console.log(Boolean("TRUE"));
-console.log(Boolean(0));
-console.log(Boolean(1));
-console.log(Boolean(''));
-console.log(Boolean('LaunchCode'));
-console.log(Boolean("1 "));
+// Using pets to write a message!
+// practicing If and else if statements!
+let dogOne = "Igby";
+let dogTwo = "Gask";
+
+if (dogOne === "Gask") {
+    console.log ("hello freindo");
+} else if (dogTwo === "Gask") {
+    console.log ("Hello Freindos!");
+} else console.log ("wtf");
+
+// Practicing Nested conditionals!
+let num = 7;
+if (num % 2 === 0) {
+    console.log ("Even");
+    if (num > 0) {
+        console.log ("Positive");
+    }
+} else {
+    console.log ("Odd");
+}
+
+
