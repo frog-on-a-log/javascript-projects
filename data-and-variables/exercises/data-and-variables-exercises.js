@@ -22,4 +22,4 @@ console.log (nameOfSpaceShuttle, 'will take', daysToMars , 'days to reach mars')
 let milesToMoon = distanceToMoonKM * milesPerKilometer;
 let hoursToMoon = milesToMoon / shuttleSpeedMPH;
 let daysToMoon = hoursToMoon / 24;
-console.log (nameOfSpaceShuttle, 'will take', daysToMoon, 'days to reach the moon' );
+console.log (nameOfSpaceShuttle, 'will take', daysToMoon, 'days to reach the moon' );git config --global user.email "Doss.s.stl@gmail.com"
