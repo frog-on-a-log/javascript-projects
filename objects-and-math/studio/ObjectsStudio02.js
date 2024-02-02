@@ -1,9 +1,22 @@
 // Code your orbitCircumference function here:
-
+let radius = 2000 //km
+let orbitalSpeed = 28000 //km/hr
+let numOrbitsCompleted = 0
+function findCircumference(radius){
+  let Circumference = Math.ceil(2*(Math.PI*radius))
+  return Circumference;
+} console.log(findCircumference(radius))
 
 // Code your missionDuration function here:
-
-
+function missionDuration(numOrbitsCompleted, orbitRadius, orbitalSpeed){
+let time = 0
+let singleOrbit = findCircumference(orbitRadius)
+for (i=0; i<numOrbitsCompleted;i++)
+time += singleOrbit/orbitalSpeed
+time = Math.round(time*100)/100
+return time
+}
+console.log(missionDuration(5,radius,orbitalSpeed));
 // Copy/paste your selectRandomEntry function here:
 
 
